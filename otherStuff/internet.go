@@ -1,4 +1,4 @@
-package codeExamples
+package otherStuff
 
 const N = 7
 

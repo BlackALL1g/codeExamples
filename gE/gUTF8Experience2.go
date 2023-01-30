@@ -7,7 +7,7 @@
 // [This Go blog post](https://go.dev/blog/strings) is a good
 // introduction to the topic.
 
-package codeExamples
+package gE
 
 import (
 	"fmt"
@@ -21,6 +21,7 @@ func GolangExperience2() {
 	// language. Go string literals are UTF-8
 	// encoded text.
 	const s = "สวัสดี"
+	var k string = "12"
 
 	// Since strings are equivalent to `[]byte`, this
 	// will produce the length of the raw bytes stored within.
@@ -57,11 +58,11 @@ func GolangExperience2() {
 		w = width
 
 		// This demonstrates passing a `rune` value to a function.
-		examineRune(runeValue)
+		ExamineRune(runeValue)
 	}
 }
 
-func examineRune(r rune) {
+func ExamineRune(r rune) {
 
 	// Values enclosed in single quotes are _rune literals_. We
 	// can compare a `rune` value to a rune literal directly.

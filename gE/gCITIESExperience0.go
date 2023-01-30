@@ -1,4 +1,4 @@
-package codeExamples
+package gE
 
 import "fmt"
 

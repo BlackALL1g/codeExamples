@@ -1,4 +1,4 @@
-package codeExamples
+package gM
 
 // Importing fmt package for the sake of printing
 import (

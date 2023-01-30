@@ -1,6 +1,6 @@
 // Go program to illustrate how ...
 
-package codeExamples
+package gM
 
 import "fmt"
 

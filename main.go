@@ -3,11 +3,15 @@
 package main
 
 import (
-	codeExamples "codeExamples/otherStuff"
-	"fmt"
+	"codeExamples/goFeatures"
 )
 
 func main() {
-	codeExamples.HelloWorld()
-	fmt.Println("Hello, 世界")
+	// fmt.Println(strings.ToLower("хлеб\n\t\t good"))
+	// gE.TripleThree()
+	// otherStuff.PointersInAction()
+	// goFeatures.ReturnMultipleFunctionValues2()
+	// goFeatures.IntersectionEqualDefinder()
+	// gE.GolangExperience1()
+	goFeatures.TwoGoroutines()
 }

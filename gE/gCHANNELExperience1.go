@@ -1,15 +1,15 @@
-package codeExamples
+package gE
 
 import "fmt"
 
 func GolangExperience1() {
 	ch := make(chan string)
-	go pushToChannel(ch)
+	go PushToChannel(ch)
 	for val := range ch {
 		fmt.Println(val)
 	}
 }
-func pushToChannel(ch chan<- string) {
+func PushToChannel(ch chan<- string) {
 	ch <- "a"
 	ch <- "b"
 	ch <- "c"
